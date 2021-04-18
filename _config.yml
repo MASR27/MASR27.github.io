@@ -7,6 +7,7 @@
 
 ## !USE TEXT THEME
 theme: jekyll-text-theme # Gem-based Jekyll Themes
+title: Welcome to the Octocat’s homepage!
 # remote_theme: kitian616/jekyll-TeXt-theme # Jekyll Remote Theme, see https://github.com/benbalter/jekyll-remote-theme for more information.
 #
 # ,--------.      ,--.   ,--. ,--.
@@ -20,7 +21,6 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
