@@ -1,3 +1,6 @@
+
+
+
 # basic options
 title: DDL
 author: GitHub User
@@ -8,9 +11,12 @@ github_username:  MASR27
 
 # Build settings
 markdown: kramdown
-theme: bulma-clean-theme
-text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+theme: jekyll-text-theme
 
+## => Site Settings
+##############################
+text_skin: "dark" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 
 ## => Plugins
 ##############################
