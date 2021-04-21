@@ -7,8 +7,8 @@ twitter_username: MEXDATA
 github_username:  MASR27
 
 # Build settings
-markdown: kramdown
-theme: jekyll-text-theme 
+markdown:  kramdown
+theme:  jekyll-text-theme 
 
 
 ## => Plugins
