@@ -1,6 +1,15 @@
-<html>
-    <body>
-        <h1>Hello World!</h1>
-        <p>gh-pages rock!</p>
-    </body>
-</html>
+---
+layout: page
+title: Home
+---
+
+This is an about page about this awesome site.
+Hope you love it!
+
+Reasons:
+- its great.
+- its a test.
+
+## Other thoughts
+
+This is great.
