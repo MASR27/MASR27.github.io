@@ -8,7 +8,7 @@ github_username:  MASR27
 
 # Build settings
 markdown:  kramdown
-theme:  minima
+theme: jekyll-text-theme
 
 
 ## => Plugins
