@@ -8,7 +8,8 @@ github_username:  MASR27
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-text-theme
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 
 
 ## => Plugins
