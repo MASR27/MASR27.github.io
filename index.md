@@ -1,7 +1,4 @@
----
-layout: page
-title: Home
----
+
 
 <html>
     <body>
