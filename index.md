@@ -1,7 +1,8 @@
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>My First Page</title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -9,9 +10,9 @@
       <a href="/">Home</a>
       <a href="/blog/">Blog</a>
     </nav>
-    <h1>{{ page.title }}</h1>
+    <h1>My First Page</h1>
     <section>
-      {{ content }}
+      This is the content of my page
     </section>
     <footer>
       &copy; to me
