@@ -9,3 +9,12 @@ github_username:  MASR27
 # Build settings
 markdown: kramdown
 theme: minima
+
+
+## => Plugins
+##############################
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
