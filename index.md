@@ -1,4 +1,4 @@
 ---
-layout: home
+layout: frontpage
 author_profile: true
 ---
