@@ -3,13 +3,13 @@ layout: page
 title: About
 ---
 
-This is an about page about this awesome site.
-Hope you love it!
+Some Markdown content describing your site.
 
-Reasons:
-- its great.
-- its a test.
+## About About Pages
 
-## Other thoughts
+The About page is a common convention found on websites.
+It is your opportunity to let us know all the details "about" your project:
 
-This is great.
+- focus and topic area
+- people involved
+- code and projects used
