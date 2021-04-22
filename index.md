@@ -1,13 +1,20 @@
-<html>
-    <head>
-        <title>Example Title - appears in browser tab</title>
-    </head>
-    <body>
-        <h1>Header One: Big Text</h1>
-        <p>An example paragraph.</p>
-        <h2>Header Two</h2>
-        <p>Paragraph with <strong>Bold text</strong>.</p>
-        <p>A link to <a href="https://github.com">GitHub</a>.</p>
-    </body>
-</html>
+---
+layout: page
+# The Home page layout
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT Licensed
+---
 
+
+{% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
+{% assign default = site.posts | where_exp: "item", "item.pin != true"  %}
+{% assign posts = "" | split: "" %}
+
+<!-- Get pinned posts -->
+
+{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+{% assign pinned_num = pinned.size | minus: offset %}
+
+{% if pinned_num > 0 %}
