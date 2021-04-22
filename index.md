@@ -1,14 +1,14 @@
-# Markdown
-
-Juu
-=====
-$nbsp;$nbsp;$nbsp;$nbsp;Markdown ceruicxifhugwcehxwfgugwexf
-xwgfugfxugugwufgxuwguifgxuwgxfguwg
-yxwfyguwgfugxuiguwgxuifgwgfugewiufgiuwgfxuhqugfuxhqfhiu px  uud fo1uiudo
-
-####Markdown Videos;
-
-
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Title - appears in browser tab</title>
+    </head>
+    <body>
+        <h1>Header One: Big Text</h1>
+        <p>An example paragraph.</p>
+        <h2>Header Two</h2>
+        <p>Paragraph with <strong>Bold text</strong>.</p>
+        <p>A link to <a href="https://github.com">GitHub</a>.</p>
+    </body>
+</html>
 
