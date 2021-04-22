@@ -5,19 +5,28 @@ class: 'home-template'
 navigation: True
 current: home
 ---
-<header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
-        {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        {% endif %}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">{{ site.description }}</h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+# Heading One
+
+## Heading Two
+
+### Heading Three, etc.
+
+Any text with no empty lines between will become a paragraph.
+Leave an blank line between headings and paragraphs.
+Font can be *Italic* or **Bold**.
+Code can be highlighted with `backticks`.
+
+Hyperlinks look like this [GitHub Help](https://help.github.com/).
+
+A bullet list is created using `*`, `+`, or `-`, like:
+
+- dog
+- cat
+- muffin
+
+A numbered list is created using a number + `.`, like:
+
+1. one
+2. two
+6. three
+2. four
