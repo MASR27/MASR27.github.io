@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "NEOECONOMICS"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
@@ -280,15 +280,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
-      
-      
-      
-2017-04-18-first-post.md
-2020-04-21-fmirmf.md
-2020-04-21-re
