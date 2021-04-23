@@ -8,5 +8,4 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: jarrekk/Jalpc
-
+remote_theme: hydecorp/hydejack
