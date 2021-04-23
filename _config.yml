@@ -8,5 +8,4 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: Phlow/feeling-responsive
-
+remote_theme:  andrewbanchich/forty-jekyll-theme
