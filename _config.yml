@@ -10,3 +10,5 @@ github_username:  jekyll
 markdown: kramdown
 remote_theme: kitian616/jekyll-TeXt-theme
 
+#Color
+text_skin: forest
