@@ -1,5 +1,5 @@
 ---
-layout: home 
+layout: home
+# articles:
+#   excerpt_type: html
 ---
-
-Welcome to my new blog!
