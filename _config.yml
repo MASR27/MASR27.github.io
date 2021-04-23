@@ -11,4 +11,4 @@ markdown: kramdown
 remote_theme: kitian616/jekyll-TeXt-theme
 
 #Color
-text_skin: forest
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
