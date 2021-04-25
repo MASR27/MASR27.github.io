@@ -1,6 +1,6 @@
 ---
 layout: page
-# articles:
+hero_text: Home Page!
 #   excerpt_type: html
 ---
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
