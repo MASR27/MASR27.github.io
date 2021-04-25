@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 
 #   excerpt_type: html
 ---
