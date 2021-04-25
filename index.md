@@ -1,3 +1,3 @@
 ---
-layour: home
+layout: home
 ---
