@@ -8,5 +8,5 @@ github_username:  MASR27
 
 # Build settings
 markdown: #
-remote_theme: kitian616/jekyll-TeXt-theme
+remote_theme: poole/hyde
 
