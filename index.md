@@ -1,16 +1,3 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    {% include banner.html %}
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      An example website made with Jekyll.
-    </footer>
-  </body>
-</html>
+---
+layour: home
+---
