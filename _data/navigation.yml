@@ -21,3 +21,8 @@ docs-en:
         url:    /docs/en/configuration
       - title:  Navigation
         url:    /docs/en/navigatio
+        
+        
+        
+   sidebar:
+  nav: docs-en
