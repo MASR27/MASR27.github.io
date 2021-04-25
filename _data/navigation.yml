@@ -1,8 +1,6 @@
 header:
   - title:      Docs
     url:        MASR27.github.io/index.md
-  - title:      Home
-    url:        MASR27.github.io/index.md
   - titles:     About
     url:        MASR27.github.io/about.md
 
