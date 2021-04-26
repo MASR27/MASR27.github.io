@@ -1,35 +1,67 @@
----
-layout: default
-title: Finding The Way Home
-class: 'home-template'
-navigation: True
-current: home
----
-<!-- < default -->
-<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
-
-<!-- The big featured header  -->
-<header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
-        {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        {% endif %}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">{{ site.description }}</h2>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+        </nav>
+        <h1><a href="/">Bakery<strong>Store</strong></a></h1>
+      </div>
+    </header>
+    <div class="content">
+      <section class="hero">
+        <div class="small-container">
+          <h2>Fresh, homemade baked goods</h2>
+          <p class="sub-text">Bakery<strong>Store</strong> serves the freshest baked goods in San Francisco.</p>
         </div>
+      </section>
+      <div class="container">
+        <p class="post-hero center-text spacing">Bakery<strong>Store</strong> is known for our fresh bread, delicious cupcakes and chocolatey cookies.</p>
+      </div>
+      <div class="container">
+        <div class="columns spacing">
+          <div class="column half">
+            <img src="/images/bread.jpg" width="430" alt="Bread">
+          </div>
+          <div class="column half">
+            <h3>Fresh Bread</h3>
+            <p>Our bread is baked fresh every morning.</p>
+          </div>
+        </div>
+        <div class="columns spacing">
+          <div class="column half">
+            <h3>Delicious Cupcakes</h3>
+            <p>The best cupcakes in San Francisco.</p>
+          </div>
+          <div class="column half">
+            <img src="/images/cupcake.jpg" width="430" alt="cupcake">
+          </div>
+        </div>
+        <div class="columns spacing">
+          <div class="column half">
+            <img src="/images/cookie.jpg" width="430" alt="cookie">
+          </div>
+          <div class="column half">
+            <h3>Chocolatey cookies</h3>
+            <p>Served with a glass of milk.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
-
-<!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
-
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-    {% include loop.html %}
-
-</main>
+    <footer>
+      <div class="container">
+        <p class="center-text"> <a href="http://cloudcannon.com">Created by CloudCannon</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
