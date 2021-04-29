@@ -1,9 +1,5 @@
 {% include banner.md %}
 
----
-lesson-example: "https://carpentries.github.io/lesson-example"
----
-
 
 # {{ site.title }}
 
