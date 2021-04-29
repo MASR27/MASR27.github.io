@@ -1,9 +1,10 @@
-![Group Website banner](./images/site_banner.png)
+{% include banner.md %}
 
 ---
 lesson-example: "https://carpentries.github.io/lesson-example"
 ---
 
+{% include banner.md %}
 
 
 # {{ site.title }}
