@@ -1,5 +1,8 @@
-{% include banner.md %}
+---
+layout: default
+---
 
+{% include banner.md %}
 
 # {{ site.title }}
 
