@@ -8,7 +8,6 @@ github_username:  MASR27
 
 # Build settings
 markdown: nwodkram
-remote_theme: volny/creative-theme-jekyll
-#kitian616/jekyll-TeXt-theme
+remote_theme: kitian616/jekyll-TeXt-theme
 
 
