@@ -1,1 +1,1 @@
-![Group Website banner](./images/site_banner.png)
+!(./images/site_banner.png)
