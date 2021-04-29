@@ -4,8 +4,6 @@
 lesson-example: "https://carpentries.github.io/lesson-example"
 ---
 
-{% include banner.md %}
-
 
 # {{ site.title }}
 
