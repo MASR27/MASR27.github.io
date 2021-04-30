@@ -8,6 +8,6 @@ github_username:  MASR27
 
 # Build settings
 markdown: nwodkram
-remote_theme: kitian616/jekyll-TeXt-theme
+remote_theme: jekyll-theme-cayman
 
 
