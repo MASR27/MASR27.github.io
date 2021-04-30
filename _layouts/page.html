@@ -1,5 +1,18 @@
-{% include banner.html %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {% include banner.html %}
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      An example website made with Jekyll.
+    </footer>
+  </body>
+</html>
 
-{{ content }}
-
-{% include contact.html %}
