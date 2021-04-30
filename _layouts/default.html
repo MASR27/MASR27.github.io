@@ -1,32 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-   
-    <!-- Document Settings -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!-- Page Meta -->
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-
-    <!-- Mobile Meta -->
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
-    <!-- Ghost outputs important style and meta data with this tag -->
-    {% include head.html %}
-
-</head>
-<body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %} nav-closed">
-
-  <!-- The blog navigation links -->
-    {% include navigation.html %}
-
-
-   <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        {{ content }}
-
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {% include banner.html %}
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      An example website made with Jekyll.
+      {% include contact.html %}
+    </footer>
+  </body>
 </html>
