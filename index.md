@@ -1,3 +1,8 @@
+---
+layout:page
+---
+
+
 {% include banner.html %}
 
 # {{ site.title }}
